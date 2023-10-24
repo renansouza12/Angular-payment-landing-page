@@ -1,0 +1,32 @@
+@media screen and (max-width:768px) {
+    .nav_bar{
+     ul{
+        gap: 2rem;
+     }
+    }
+}
+@media screen and (max-width:731px) {
+    .nav_bar{
+     ul{
+        gap: 1rem;
+     }
+    }
+}
+@media screen and (max-width:441px) {
+    .nav_bar{
+        ul{
+            display: none;
+        }
+        .buttons{
+            display: none;
+        }
+        .burger_icon{
+            display: block;
+        }
+        
+    }
+    .nav_bar_mobile{
+        display: block;
+    }
+  
+}
