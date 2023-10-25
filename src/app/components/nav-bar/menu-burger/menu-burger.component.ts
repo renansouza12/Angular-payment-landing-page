@@ -9,6 +9,6 @@ export class MenuBurgerComponent {
   icon_burger!:string;
 
   menu_burger():void{    
-    this.icon_burger === "active"? this.icon_burger = "":this.icon_burger = "active";
+    this.icon_burger === "active"? this.icon_burger = "" :this.icon_burger = "active";
   }
 }

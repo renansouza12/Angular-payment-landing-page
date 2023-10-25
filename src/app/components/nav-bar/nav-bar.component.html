@@ -10,11 +10,11 @@
     <div class="buttons">
         <button>Log In</button><button>Sign Up</button>
     </div>
-    <div class="burger_icon">
+    <div class="burger_icon" (click)="menu_burger()">
         <app-menu-burger/>
     </div>
 </div>
-<div class="nav_bar_mobile">
+<div class="nav_bar_mobile" [ngClass]="nav_bar_mobile">
     <app-nav-bar-mobile/>
 </div>
 

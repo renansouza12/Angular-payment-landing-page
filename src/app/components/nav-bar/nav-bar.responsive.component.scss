@@ -26,6 +26,9 @@
         
     }
     .nav_bar_mobile{
+        display: none;
+    }
+    .nav_bar_mobile.active{
         display: block;
     }
   
