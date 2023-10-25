@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MenuBurgerComponent } from './components/nav-bar/menu-burger/menu-burger.component';
 import { NavBarMobileComponent } from './components/nav-bar/nav-bar-mobile/nav-bar-mobile.component';
 import { TitleComponent } from './components/title/title.component';
+import { PhoneImageComponent } from './components/phone-image/phone-image.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TitleComponent } from './components/title/title.component';
     NavBarComponent,
     MenuBurgerComponent,
     NavBarMobileComponent,
-    TitleComponent
+    TitleComponent,
+    PhoneImageComponent
   ],
   imports: [
     BrowserModule,
