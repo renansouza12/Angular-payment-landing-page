@@ -7,8 +7,10 @@ import { Component } from "@angular/core";
         img{
             width:90%;
         }
-        @media screen and (max-width:768px){
-                
+        @media screen and (max-width:425px){
+                img{
+                    width:100%;
+                }
         }
     `]
 })

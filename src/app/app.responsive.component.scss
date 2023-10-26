@@ -1,0 +1,15 @@
+@media screen and (max-width:426px){
+    #app{
+        height: 100vh;
+        padding: 1rem;
+
+           header{
+           padding:0;
+           }
+           main{
+             flex-direction: column;
+              
+           }
+       }
+
+}

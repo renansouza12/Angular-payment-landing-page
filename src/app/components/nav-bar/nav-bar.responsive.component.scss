@@ -1,7 +1,16 @@
 @media screen and (max-width:768px) {
     .nav_bar{
      ul{
-        gap: 2rem;
+        gap: 1.5rem;
+        li{
+            a{
+                font-size: 0.9rem;
+            }
+        }
+     }
+     button{
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
      }
     }
 }
@@ -14,11 +23,13 @@
 }
 @media screen and (max-width:441px) {
     .nav_bar{
+      
         .burger_icon, img{
             z-index: 1;
         }
         ul{
             display: none;
+            width: 100%;
         }
         .buttons{
             display: none;

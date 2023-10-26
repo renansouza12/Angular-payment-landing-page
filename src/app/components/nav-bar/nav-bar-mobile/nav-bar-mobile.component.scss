@@ -1,19 +1,19 @@
 .mobile_nav_bar{
+    background: hsl(0, 0%, 5%);
     position: absolute;
     top: 0;
-    height: 100%;
-    width: 100%;
-    background: hsl(0, 0%, 5%);
-    
+    left: 0;
+    height: 100vh;
+    width:100%;
     animation: mobile 0.5s ease-in-out;
     ul{
         list-style: none;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
-        padding: 4rem 1rem 1rem 1rem;
+        margin: 4rem 0 0 0;
+        padding: 1rem;
         
         li,a{
             transition: 0.5s;
