@@ -3,10 +3,6 @@
 
 A project about a payment landing page, responsive with differents screen sizes , menu icon on mobile devices, when the hamburger menu is clicked open the mobile navigation menu.
 
-## Screenshots
-
-![App Screenshot](https.)
-
 
 ## 🔗 link
 📟 https://landing-page-payment.netlify.app/
